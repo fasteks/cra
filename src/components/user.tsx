@@ -8,7 +8,7 @@ interface UserProps {
 
 const User: FC<UserProps> = ({ user }) => {
   return (
-    <div>
+    <div style={{ fontSize: '20px' }}>
       {user.name} lives in {user.address.city} at {user.address.street} street
     </div>
   )
